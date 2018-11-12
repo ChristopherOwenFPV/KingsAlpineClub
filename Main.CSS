@@ -1,0 +1,332 @@
+body {
+    Height: 100%;
+}
+
+.bigbox {
+    Position: relative;
+    Height: 750px;
+    Width: 100%;
+    Background: Url("https://images.newschoolers.com/images/17/00/89/01/35/890135.jpeg");
+    Background-size: Cover;
+    Background-position: Center;
+    Border: 5px Solid black; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    Box-sizing: Border-Box; 
+
+}
+
+.sample {
+    Font-Size: 40px;
+    Font-Family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Text-Align: Center;
+}
+.smallbox {
+    height: 600px;
+}
+
+#mediadiv .mediatext {
+    text-align: Center;
+}
+
+.mediatext {
+    Font-Size: 40px;
+    Font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Margin-top: 30px;
+    Text-align: Center; 
+    line-height: 200px;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+}
+
+#mediadiv {
+    Text-Align: Center;
+}
+
+.bigbox img {
+    Position: absolute;
+    Bottom: 0Px;
+}
+
+.Credits {
+    Position: absolute;
+    Border: 8px Double Black;
+    Width: 300px;
+    Text-Align: Center;
+    Top:20px;
+    Left: 50px;
+    Font-Size: 30px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.bigbox .Credits A:Link {
+    Color: Crimson;
+}
+
+.bigbox .Credits A:Visited {
+    Color: Crimson;
+}
+
+.bigbox .Credits A:hover {
+    Color: Blue;
+}
+
+#menu .menuLink A {
+    Color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid crimson;
+    background-color: crimson; 
+    margin: 0px 20px;
+    Border-radius: 15px;
+    padding:.5%;
+
+}
+
+#menu .menuLink {
+    line-height: 50px;
+}
+
+#menu .menuLink A:Hover {
+    Color: crimson;
+    text-align: center;
+    text-decoration: none;
+    Background-color: white;
+    border: 5px solid crimson;
+} 
+
+#RSVP .Date {
+    display: Block;
+}
+
+
+
+button {
+    Color: White;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid crimson;
+    background-color: crimson; 
+    padding:.5%;  
+    width: 100%;
+    cursor: pointer;
+}
+button:hover {
+    Color: Crimson;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid crimson;
+    background-color: White; 
+    padding:.5%;  
+}
+
+
+
+.FormP {
+    Color: Crimson;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid crimson;
+    background-color: White; 
+    padding:.5%; 
+    Width: 100%;
+    Margin: 0px;
+}
+
+#RSVP {
+    Width: 200px;
+    Margin-top: 30px;
+    Display:Inline-block;
+    
+}
+
+#Sheet {
+    Margin-Left: 300px;
+}
+
+.bigbox .Title A:Link {
+    Color: Black;
+}
+
+.bigbox .Title A:Visited {
+    Color: Black;
+}
+
+.bigbox .Title A:Hover {
+    Color: Blue;
+}
+
+
+
+
+
+ .menuLink {
+     display: inline-block;
+    } 
+
+.LinkP {
+    Color: Crimson;
+    text-align: center;
+    text-decoration: none;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid crimson;
+    background-color: white; 
+    margin: 0px 20px;
+     Border-radius: 15px; 
+    padding:.5%;
+    display: inline;
+
+}  
+    
+#menu {color:black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+
+.Table {
+    Font-size: 35px;
+    Margin: Auto;
+    Margin-top: 50px;
+    Padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+.Table tr td:not(:last-child){
+Border-right: 5px solid rgb(114, 114, 114);
+} 
+
+.Table td {
+    Padding: 0 20px;
+}
+
+.Table tr:not(:last-child) {
+    Border-bottom: 5px solid rgb(114, 114, 114);
+}
+
+.Title {
+    Position: Absolute;
+    Font-Size: 55px;
+    Width: 300px;
+    Text-Align: Center;
+    Right: 70px;
+    Top: 40px;
+    Padding-Bottom:15px;
+    Border-Bottom: 5Px Solid White;
+}
+
+.Title:Hover {
+    Position: Absolute;
+    Font-Size: 55px;
+    Width: 300px;
+    Text-Align: Center;
+    Right: 70px;
+    Top: 40px;
+    Padding-Bottom:10px;
+    Border: None;
+}
+.smalltitle {
+    top: 0px;
+}
+.smalltitle:hover {
+    top: 0px;
+}
+
+.formiframe {
+    Display:Inline-block; 
+    Vertical-align: top;
+    Margin-top: 30px;
+    Margin-left: 30px;
+    Border: 5px Solid black; 
+    width: 750px;
+    Text-align: Center;
+}
+
+.textabove {
+    Margin: 20px 10%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Color: white;
+    text-decoration: none;
+    font-size:30px;
+    border: 5px solid crimson;
+    background-color: crimson; 
+    Border-radius: 15px;
+    padding:.5%;
+    Display:Inline-block;
+    
+}
+#myiframe {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#myiframe:focus {
+
+}
+
+@media (Max-Width: 768px)  {
+    .Title {
+        Font-Size: 40px;
+        Border: 0;
+    }
+
+    .Title:Hover {
+        Font-Size: 40px;
+        Border: 0;
+    }
+
+    .Credits {
+        Font-Size: 20px;
+        Width: 200px;
+    }
+}
+
+@media (Max-Width: 648Px)  {
+    .Title {
+        
+        Font-Size: 30Px;
+        Margin: 0 Auto;
+    }
+
+    .Title:Hover {
+        Text-Align: Center;
+        Font-Size: 30Px;
+    }
+
+    .Credits {
+        Font-Size: 25px;
+        Width: 200px;
+        Top: 150Px;
+    }
+
+}
+
+
+@media (Max-Width: 440Px) {
+    .bigbox img {
+        Width: 100%;
+    }
+}
+
+@media (Max-Width: 400px) {
+    .smalltitle {
+        Position: Absolute;
+    }
+}
+
