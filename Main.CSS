@@ -84,13 +84,16 @@ body {
     margin: 0px 20px;
     Border-radius: 15px;
     padding:.5%; 
+    white-space: nowrap;
+    
 
 }
 
 #menu .menuLink {
     line-height: 50px;
-    display:inline-block !important;
+    
 }
+
 
 #menu .menuLink A:Hover {
     Color: crimson;
@@ -98,6 +101,7 @@ body {
     text-decoration: none;
     Background-color: white;
     border: 5px solid crimson;
+    white-space: nowrap;
 } 
 
 #RSVP .Date {
@@ -173,9 +177,7 @@ button:hover {
 
 
 
- .menuLink {
-     display: inline-block !important;
-    } 
+
 
 .LinkP {
     Color: Crimson;
@@ -196,6 +198,11 @@ button:hover {
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15px;
+    display: flex;
+    justify-content: Center;
+    flex-wrap: 1;
+    
+    
 }
 
 .Table {
@@ -311,6 +318,12 @@ Border-right: 5px solid rgb(114, 114, 114);
         Font-Size: 25px;
         Width: 200px;
         Top: 150Px;
+    }
+
+}
+@media (Max-Width: 950px) {
+    #menu {
+        Display: Block !important;
     }
 
 }
