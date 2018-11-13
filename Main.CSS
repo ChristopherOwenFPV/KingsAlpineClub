@@ -276,9 +276,6 @@ Border-right: 5px solid rgb(114, 114, 114);
     padding-left: 25px;
     padding-right: 25px;
 }
-#myiframe:focus {
-
-}
 
 @media (Max-Width: 768px)  {
     .Title {
