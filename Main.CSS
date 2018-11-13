@@ -89,6 +89,7 @@ body {
 
 #menu .menuLink {
     line-height: 50px;
+    display:inline-block !important;
 }
 
 #menu .menuLink A:Hover {
@@ -173,7 +174,7 @@ button:hover {
 
 
  .menuLink {
-     display: inline-block;
+     display: inline-block !important;
     } 
 
 .LinkP {
