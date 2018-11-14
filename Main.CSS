@@ -90,7 +90,7 @@ body {
 }
 
 #menu .menuLink {
-    line-height: 50px;
+    line-height: 60px;
     
 }
 
@@ -234,6 +234,7 @@ Border-right: 5px solid rgb(114, 114, 114);
     Width: 300px;
     Text-Align: Center;
     Right: 70px;
+    Left: auto;
     Top: 40px;
     Padding-Bottom:15px;
     Border-Bottom: 5Px Solid White;
@@ -307,6 +308,9 @@ Border-right: 5px solid rgb(114, 114, 114);
         
         Font-Size: 30Px;
         Margin: 0 Auto;
+        Right: auto;
+        Left: 23x;
+        Top: 30px;
     }
 
     .Title:Hover {
@@ -318,12 +322,16 @@ Border-right: 5px solid rgb(114, 114, 114);
         Font-Size: 25px;
         Width: 200px;
         Top: 150Px;
+
     }
 
 }
 @media (Max-Width: 950px) {
     #menu {
         Display: Block !important;
+    }
+    .menuLink {
+        
     }
 
 }
@@ -332,6 +340,7 @@ Border-right: 5px solid rgb(114, 114, 114);
 @media (Max-Width: 440Px) {
     .bigbox img {
         Width: 100%;
+    
     }
 }
 
