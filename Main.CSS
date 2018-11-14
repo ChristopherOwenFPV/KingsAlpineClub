@@ -91,7 +91,12 @@ body {
 
 #menu .menuLink {
     line-height: 60px;
+    box-sizing: border-box;
     
+}
+
+.menuLink > * {
+    box-sizing: border-box;
 }
 
 
@@ -189,8 +194,9 @@ button:hover {
     background-color: white; 
     margin: 0px 20px;
      Border-radius: 15px; 
-    padding:.5%;
+    padding: 5px;
     display: inline;
+    box-sizing: border-box;    
 
 }  
     
@@ -330,10 +336,6 @@ Border-right: 5px solid rgb(114, 114, 114);
     #menu {
         Display: Block !important;
     }
-    .menuLink {
-        
-    }
-
 }
 
 
