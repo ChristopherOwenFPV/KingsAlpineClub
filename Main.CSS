@@ -191,8 +191,7 @@ button:hover {
     font-size:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 5px solid crimson;
-    background-color: white; 
-    margin: 0px 20px;
+    background-color: white;
      Border-radius: 15px; 
     padding: 5px;
     display: inline;
@@ -315,7 +314,7 @@ Border-right: 5px solid rgb(114, 114, 114);
         Font-Size: 30Px;
         Margin: 0 Auto;
         Right: auto;
-        Left: 23x;
+        Left: 23px;
         Top: 30px;
     }
 
