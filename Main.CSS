@@ -6,7 +6,7 @@ body {
     Position: relative;
     Height: 750px;
     Width: 100%;
-    Background: Url("https://images.newschoolers.com/images/17/00/89/01/35/890135.jpeg");
+    Background: Url("Skier.jpeg");
     Background-size: Cover;
     Background-position: Center;
     Border: 5px Solid black; 
@@ -91,13 +91,21 @@ body {
     margin: 0px 20px;
     Border-radius: 15px;
     padding:.5%; 
+    white-space: nowrap;
+    
 
 }
 
 #menu .menuLink {
-    line-height: 50px;
-    display:inline-block !important;
+    line-height: 60px;
+    box-sizing: border-box;
+    
 }
+
+.menuLink > * {
+    box-sizing: border-box;
+}
+
 
 #menu .menuLink A:Hover {
     Color: crimson;
@@ -105,6 +113,7 @@ body {
     text-decoration: none;
     Background-color: white;
     border: 5px solid crimson;
+    white-space: nowrap;
 } 
 
 #RSVP .Date {
@@ -180,9 +189,7 @@ button:hover {
 
 
 
- .menuLink {
-     display: inline-block !important;
-    } 
+
 
 .LinkP {
     Color: Crimson;
@@ -191,11 +198,11 @@ button:hover {
     font-size:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 5px solid crimson;
-    background-color: white; 
-    margin: 0px 20px;
+    background-color: white;
      Border-radius: 15px; 
-    padding:.5%;
+    padding: 5px;
     display: inline;
+    box-sizing: border-box;    
 
 }  
     
@@ -203,6 +210,11 @@ button:hover {
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15px;
+    display: flex;
+    justify-content: Center;
+    flex-wrap: 1;
+    
+    
 }
 
 .Table {
@@ -234,6 +246,7 @@ Border-right: 5px solid rgb(114, 114, 114);
     Width: 300px;
     Text-Align: Center;
     Right: 70px;
+    Left: auto;
     Top: 40px;
     Padding-Bottom:15px;
     Border-Bottom: 5Px Solid White;
@@ -307,6 +320,9 @@ Border-right: 5px solid rgb(114, 114, 114);
         
         Font-Size: 30Px;
         Margin: 0 Auto;
+        Right: auto;
+        Left: 23px;
+        Top: 30px;
     }
 
     .Title:Hover {
@@ -318,14 +334,21 @@ Border-right: 5px solid rgb(114, 114, 114);
         Font-Size: 25px;
         Width: 200px;
         Top: 150Px;
+
     }
 
+}
+@media (Max-Width: 950px) {
+    #menu {
+        Display: Block !important;
+    }
 }
 
 
 @media (Max-Width: 440Px) {
     .bigbox img {
         Width: 100%;
+    
     }
 }
 
