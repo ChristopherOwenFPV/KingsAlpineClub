@@ -43,6 +43,13 @@ body {
     Text-Align: Center;
 }
 
+.questions {
+    Display:Inline-block;
+}
+.answers {
+    Display:Inline-block;
+}
+
 .bigbox img {
     Position: absolute;
     Bottom: 0Px;
