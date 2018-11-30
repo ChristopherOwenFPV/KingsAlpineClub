@@ -24,23 +24,21 @@ body {
     height: 600px;
 }
 
-#mediadiv .mediatext {
-    text-align: Center;
-}
+
 
 .mediatext {
     Font-Size: 40px;
     Font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     Margin-top: 30px;
     Text-align: Center; 
-    line-height: 200px;
+    line-height: 50px;
     margin: auto;
-    position: absolute;
     width: 100%;
 }
 
 #mediadiv {
     Text-Align: Center;
+    
 }
 
 .questions {
