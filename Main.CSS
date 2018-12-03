@@ -26,6 +26,8 @@ body {
 
 
 
+
+
 .mediatext {
     Font-Size: 40px;
     Font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,6 +66,12 @@ body {
     background-color: white;
     border-radius: 15px;
     
+}
+.announcement {
+    Font-Size: 30px;
+    Position: Absolute;
+    Text-Align: Center;
+    Width: 300px;
 }
 
 .bigbox .Credits A:Link {
