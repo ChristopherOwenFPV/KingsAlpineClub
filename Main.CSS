@@ -67,11 +67,38 @@ body {
     border-radius: 15px;
     
 }
-.announcement {
+.textindex {
+    text-align: center;
     Font-Size: 30px;
-    Position: Absolute;
     Text-Align: Center;
     Width: 300px;
+    margin: auto;
+    margin-top: 615px;
+    margin-bottom: 25px;
+    Display: Inline-block;
+    Font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Border: 5px solid red;
+    border-radius:5px;
+
+}
+
+.textmain {
+    text-align: center;
+    Font-Size: 30px;
+    Text-Align: Center;
+    Width: 300px;
+    margin: auto;
+    margin-top: 490px;
+    margin-bottom: 25px;
+    Display: Inline-block;
+    Font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Border: 5px solid red;
+    border-radius:5px;
+
+}
+#announcement {
+    Text-Align: Center;
+    
 }
 
 .bigbox .Credits A:Link {
